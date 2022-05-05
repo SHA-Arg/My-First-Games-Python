@@ -10,7 +10,7 @@ screen = pygame.display.set_mode((heigth , width))
 bg = 25, 25, 25
 screen.fill(bg)
 
-nxC, nyC = 50, 50
+nxC, nyC = 25, 25
 dimCW = width  / nxC
 dimCH = heigth / nyC
 
