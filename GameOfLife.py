@@ -14,7 +14,7 @@ nxC, nyC = 25, 25
 dimCW = width  / nxC
 dimCH = heigth / nyC
 
-Cell Status.Alive = 1; Dead = 0;
+Alive = 1; Dead = 0;
 gameState = np.zeros((nxC, nyC))
 
 # Automata #2.

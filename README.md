@@ -1,5 +1,4 @@
-# Version-Of-GameOfLife
+# Creando una Version Of Game Of Life
 
-Lo escribi y entendi gracias a dot CVS, gracias Carlos.
+Empezando a crear por diversion este proyecto =)
 
-# Espero les funcione =)
