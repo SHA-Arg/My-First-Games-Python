@@ -1,5 +1,7 @@
 # ignorar virtualenv
 venv/
+
+__pycache__/
 # ignorar archivos de configuración
 *.pyc
 *.pyo
