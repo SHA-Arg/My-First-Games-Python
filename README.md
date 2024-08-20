@@ -29,39 +29,53 @@ git clone https://github.com/tu_usuario/juego-de-la-vida.git
 
 cd juego-de-la-vida
 
-Ejecución del Juego
-Sigue estos pasos para ejecutar el juego en tu máquina local:
+## Ejecución del Juego
 
-Clona este repositorio:
+- Sigue estos pasos para ejecutar el juego en tu máquina local:
 
-git clone https://github.com/tu_usuario/juego-de-la-vida.git
-cd juego-de-la-vida
-Instala las dependencias:
+### Clona este repositorio:
+
+- git clone https://github.com/tu_usuario/juego-de-la-vida.git
+- cd juego-de-la-vida
+
+### Instala las dependencias:
+
 Asegúrate de tener instalado Pygame:
 
-pip install pygame
-Ejecuta el juego:
-Puedes ejecutar el juego utilizando el siguiente comando:
+    - pip install pygame
 
-python main.py
-Interactúa con el juego:
+### Ejecuta el juego:
+
+- Puedes ejecutar el juego utilizando el siguiente comando:
+
+  - python main.py
+
+### Interactúa con el juego:
 
 En la pantalla de menú:
 Presiona 'S' para iniciar el juego.
 Presiona 'I' para ver las instrucciones.
-En el juego:
+
+### En el juego:
+
 Presiona Espacio para pausar/reanudar la simulación.
 Usa el mouse para activar/desactivar células.
 Presiona Esc para volver al menú principal.
-Estructura del Proyecto
 
+## Estructura del Proyecto
+
+```markdown
 juego-de-la-vida/
 │
 ├── main.py # Código principal del juego
 ├── README.md # Archivo de instrucciones
 └── requirements.txt # Dependencias del proyecto (opcional)
-Instrucciones del Juego
+```
+
+## Instrucciones del Juego
+
 El juego comienza con un tablero vacío o con algunas células ya vivas.
+
 La simulación sigue las siguientes reglas:
 Una célula muerta con exactamente 3 vecinas vivas "nace".
 Una célula viva con menos de 2 o más de 3 vecinas vivas "muere".
@@ -69,7 +83,7 @@ Usa el mouse para añadir o eliminar células manualmente durante la simulación
 Contribuciones
 ¡Las contribuciones son bienvenidas! Si tienes alguna idea para mejorar este proyecto, no dudes en hacer un fork del repositorio y enviar un pull request.
 
-Licencia
+**Licencia**
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 
 ### Notas:
