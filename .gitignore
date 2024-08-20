@@ -1,0 +1,9 @@
+# ignorar virtualenv
+venv/
+# ignorar archivos de configuración
+*.pyc
+*.pyo
+*.swp
+*.swo
+*.swm
+*.swl
