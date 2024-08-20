@@ -35,7 +35,19 @@ def update_game_state(gameState, nxC, nyC):
     return newGameState
 
 
-def draw_text(screen, text, position, size=50, color=(255, 255, 255)):
-    font = pygame.font.Font(None, size)
+def draw_text(screen, text, position, size=30, color=(255, 255, 255), font_name=None, bold=False, italic=False):
+    # Cargar la fuente, si se proporciona un nombre, usa esa fuente
+    font = pygame.font.Font(font_name, size)
+
+    # Aplicar estilos si es necesario
+    font.set_bold(bold)
+    font.set_italic(italic)
+
+    # Renderizar el texto
     text_surface = font.render(text, True, color)
-    screen.blit(text_surface, position)
+
+    # Obtener el rectángulo del texto y centrarlo en la posición proporcionada
+    rect = text_surface.get_rect(center=position)
+
+    # Dibujar el texto en la pantalla
+    screen.blit(text_surface, rect)
