@@ -69,7 +69,7 @@ juego-de-la-vida/
 │
 ├── main.py # Código principal del juego
 ├── README.md # Archivo de instrucciones
-└── requirements.txt # Dependencias del proyecto (opcional)
+└── requirements.txt # Dependencias del proyecto
 ```
 
 ## Instrucciones del Juego
